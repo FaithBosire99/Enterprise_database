@@ -1,7 +1,7 @@
 create database Maina_Enterprise;
 Use Maina_Enterprise;
 
-
+-------------Creation of customers table-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Create table Customers (
 	CustomerId int identity(100,1) primary key,
 	CustomerName varchar(60) not null,
